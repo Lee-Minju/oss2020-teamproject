@@ -2,4 +2,4 @@
 
 ## Desriptions are here, please check.
 
-link --
+[Home Page of Project](https://lee-minju.github.io/ShuttleBusTime2020/)
