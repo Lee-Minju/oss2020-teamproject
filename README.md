@@ -1,5 +1,5 @@
 # oss2020-teamproject
 
-## Desriptions are please check here.
+## Desriptions are here, please check.
 
 link --
