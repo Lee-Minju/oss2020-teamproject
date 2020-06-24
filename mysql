@@ -4,18 +4,11 @@ mysql -u root
 
 //평일-셔틀 시간표
 
-MariaDB [(none)]> CREATE DATABASE dbshuttle;
+CREATE DATABASE dbshuttle;
 
-MariaDB [(none)]> USE dbshuttle;
+USE dbshuttle;
 
-MariaDB [dbshuttle]> CREATE TABLE shuttle(
-    -> startingpoint VARCHAR(20),
-    -> destiantion VARCHAR(20),
-    -> route VARCHAR(10),
-    -> tiem INT);
-
-
-//MariaDB [dbshuttle]> 는 생략 콘솔에 뜨는거기 때문에 생략
+CREATE TABLE shuttle(startingpoint VARCHAR(20),destiantion VARCHAR(20),route VARCHAR(10),tiem INT);
 
 INSERT INTO SHUTTLE VALUES (‘창의인재원’,‘셔틀콕’,'C',0745); 
 INSERT INTO SHUTTLE VALUES (‘셔틀콕’.‘한대앞’,'C',0750);
@@ -399,15 +392,11 @@ INSERT INTO SHUTTLE VALUES(‘예술인APT’,‘창의인재원’,'C',2315);
 
 //토,일요일,공휴일 - 셔틀시간표
 
-MariaDB [(none)]> CREATE DATABASE dbshuttle2;
+CREATE DATABASE dbshuttle2;
 
-MariaDB [(none)]> USE dbshuttle2;
+USE dbshuttle2;
 
-MariaDB [dbshuttle2]> CREATE TABLE shuttle2(
-    -> startingpoint VARCHAR(20),
-    -> destiantion VARCHAR(20),
-    -> route VARCHAR(10),
-    -> time INT);
+CREATE TABLE shuttle2(startingpoint VARCHAR(20),destiantion VARCHAR(20),route VARCHAR(10),time INT);
     
 //MariaDB [dbshuttle2]> 는 생략 콘솔에 뜨는거기 때문에 생략
     
