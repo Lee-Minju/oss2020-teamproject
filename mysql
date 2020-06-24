@@ -398,7 +398,6 @@ USE dbshuttle2;
 
 CREATE TABLE shuttle2(startingpoint VARCHAR(20),destiantion VARCHAR(20),route VARCHAR(10),time INT);
     
-//MariaDB [dbshuttle2]> 는 생략 콘솔에 뜨는거기 때문에 생략
     
 INSERT INTO SHUTTLE2 VALUES (‘창의인재원’,‘셔틀콕’,'C',0845);
 INSERT INTO SHUTTLE2 VALUES (‘셔틀콕’,‘한대앞역’,'C',0850);
